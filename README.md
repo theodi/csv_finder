@@ -2,7 +2,7 @@
 
 # CSV Finder
 
-A quick script that hoovers up all the CSVs on [data.gov.uk](http://data.gov.uk). Includes the data as of 17th January 2014.
+A quick script that hoovers up all the CSVs on [data.gov.uk](http://data.gov.uk). Includes [the data](https://github.com/theodi/csv_finder/blob/master/csv_urls.csv) as of 17th January 2014.
 
 To run locally:
 
