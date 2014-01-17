@@ -38,7 +38,7 @@ pages.times do |i|
   end
 end
 
-CSV.open("csv_urls.csv", "w") do |csv|
+CSV.open("csv_urls.csv", "w", {:force_quotes => true, :row_sep => "\r\n"}) do |csv|
   csv << csvs.first.keys
   csvs.each do |row|
     csv << row.values
